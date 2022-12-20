@@ -183,3 +183,5 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "users.User"
+
+ALLOWED_HOSTS = ["web-production-7fde.up.railway.app", "0.0.0.0"]
